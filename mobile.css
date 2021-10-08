@@ -28,7 +28,7 @@
         align-items: center;
         justify-content: space-between;
         background-color: #fff; 
-        padding:  6px 0; 
+        padding:  8px 0; 
         z-index: 1000;
         height: fit-content;
         /* padding: 8px 0px; */
@@ -40,7 +40,7 @@
         display: flex;
         /* margin-left: 10px; */
         margin-left:  10px;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         height: 40px;
         align-items: center;
         justify-content: center;
@@ -82,14 +82,18 @@
         margin:5px 10px;
     }
     .logo{
-        flex: 3;
+        width: 80vw;
+        /* margin: auto; */
+        /* flex: 3; */
+
     }
     .logo > img{
         
-        margin-left: 20px;
-        width: 50vw;
-        height: 40px;
-        /* object-fit: contain; */
+        /* margin-left: 20px; */
+        width: 70vw;
+        height: 37px;
+        margin: auto 0;
+        object-fit: contain;
     }
     
     /* when screen size reduces .list__items will disappear */
@@ -106,6 +110,7 @@
         /* font-size: 0.4rem; */
         min-width: 70px;
         margin: 0 10px;
+        display: none;
     }
     .icons__hover{
         width: 20px;
