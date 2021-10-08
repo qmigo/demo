@@ -25,7 +25,7 @@
         align-items: center;
         justify-content: space-between;
         background-color: #fff; 
-        padding: 5px 0; 
+        padding:  6px 0; 
         z-index: 1000;
         height: fit-content;
         /* padding: 8px 0px; */
@@ -35,7 +35,8 @@
     
     .mobile__toggle_off{
         display: flex;
-        margin-left: 5px;
+        flex: 1;
+        margin-left:  10px;
         font-size: 1.3rem;
         align-items: center;
         justify-content: center;
@@ -76,10 +77,14 @@
         font-size: 1.4rem;  
         margin:5px 10px;
     }
+    .logo{
+        flex: 3;
+    }
     .logo > img{
+        
         margin-left: 20px;
-        width: 55vw;
-        height: 45px;
+        width: 50vw;
+        height: 40px;
         /* object-fit: contain; */
     }
     
@@ -89,6 +94,7 @@
     }
     
     .contact__icons{
+        flex: 2;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -103,7 +109,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     .icons__hover:hover{
        color: black;
