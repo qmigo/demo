@@ -14,6 +14,9 @@
     .footer{
         display:none
     }
+    .test{
+        color: brown;
+    }
 
     /* nav */
     nav{
