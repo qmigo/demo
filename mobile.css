@@ -79,7 +79,7 @@
     .logo > img{
         margin-left: 20px;
         width: 50vw;
-        height: 30px;
+        height: 38px;
         /* object-fit: contain; */
     }
     
@@ -93,7 +93,7 @@
         align-items: center;
         justify-content: space-between;
         color: black;
-        font-size: 0.8rem;
+        /* font-size: 0.4rem; */
         min-width: 70px;
         margin: 0 10px;
     }
@@ -103,13 +103,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .icons__hover:hover{
-       color: white;
-        background-color: #000;
-        border-radius: 50%;
-        outline: solid transparent 1px;
+       color: black;
+        background-color: white;
+        /* border-radius: 50%; */
+        /* outline: solid transparent 1px; */
     }
     
     /* nav */
